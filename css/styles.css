@@ -8,16 +8,19 @@ html, body {
   text-align: center;
 }
 
-body {
-  display: flex;
+.container {
+  display: grid;
+  grid-template-columns: 70ch;
   justify-content: center;
-  padding-top: 50px;
+  padding: 20px;
 }
 
 h1 {
-  font-weight: 100;
+  font-size: 2rem;
 }
 
-p {
-  width: 70ch;
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 90%;
+  }
 }
