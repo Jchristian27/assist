@@ -1,11 +1,11 @@
 :root {
+  background-color: #F8F8F8;
+  color: #000;
   font-size: 20px;
-}
-
-html, body {
   margin: 0;
+  padding: 0;
   height: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 .container {
@@ -17,10 +17,34 @@ html, body {
 
 h1 {
   font-size: 2rem;
+  margin-bottom: 0;
+  margin-top: 15px;
+  text-align: left;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
 }
 
 @media (max-width: 600px) {
   .container {
     grid-template-columns: 90%;
+  }
+
+  .container > p {
+    margin-top: 10px;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  p {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
