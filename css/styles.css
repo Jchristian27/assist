@@ -3,7 +3,7 @@
 :root {
   background-color: #F8F8F8;
   color: #000;
-  font-family: "Montserrat", "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   height: 100%;
   margin: 0;
@@ -30,6 +30,7 @@ p {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: left;
+  line-height: 1.5;
 }
 
 @media (max-width: 600px) {
